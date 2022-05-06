@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React, { useEffect, useState } from "react";
-
+import AntDesign from "@expo/vector-icons/AntDesign";
+import { FontAwesome5 } from "@expo/vector-icons";
 import {
   Container,
   Row,
@@ -39,6 +40,8 @@ const Home = () => {
       <Container style={{ marginTop: 20 }}>
         <Row>
           <Col6>
+            <AntDesign name="stepforward" size={24} color="black" />
+            <FontAwesome5 name="envelope" size={24} color="red" />
             <Card
               style={{
                 shadowColor: "#000",
