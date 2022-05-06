@@ -1,0 +1,16 @@
+export const THEME = {
+  PRIMARY_COLOR: "#00a5dd",
+  SECONDARY_COLOR: "#e34133",
+  HEADING_COLOR: "#333333",
+  SUBHEADING_COLOR: "#444",
+  PARAGRAPH_COLOR: "#666",
+  DANGER_COLOR: "#f50a0a",
+  SUCCESS_COLOR: "#2ad691",
+  WARNING_COLOR: "#ffca2c",
+  HEADING_FONT: "KhulaBold",
+  SUBHEADING_FONT: "KhulaSemiBold",
+  PARAGRAPH_FONT: "KhulaRegular",
+  BG_GRAY: "#f7f7f7",
+  BG_LIGHT: "#fbfbff",
+  BG_DARK: "#000",
+};

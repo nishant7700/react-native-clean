@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390601012627",
+    "project_id": "notificationmain-59734",
+    "storage_bucket": "notificationmain-59734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390601012627:android:cbb3e28a99bdf342cca466",
+        "android_client_info": {
+          "package_name": "com.webgrowsolutions.reference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390601012627-ltge8ic7m71n4jnpprqnsg36g2s6puui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3XyrRN7O9Ki3hQ9wwRUdZk8DDQFRN3YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390601012627-ltge8ic7m71n4jnpprqnsg36g2s6puui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

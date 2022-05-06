@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "BYKNIC-MECHANIC",
+    "slug": "byknic-mechanic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/iclogo.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.imadiautocare.byknic_mechanic",
+      "buildNumber": "2.0.0"
+    },
+    "android": {
+      "package": "com.webgrowsolutions.reference",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./src/assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
