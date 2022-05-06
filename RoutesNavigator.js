@@ -75,11 +75,21 @@ const RoutesNavigator = ({ auth: { loading, isAuthenticated } }) => {
   useEffect(() => {
     registerForPushNotificationsAsync().then((token) => {
       setExpoPushToken(token);
-      // console.log("ACTION TOKEN", token);
+      console.log("ACTION TOKEN", token);
+
+      const storeData = async (value) => {
+        try {
+          await AsyncStorage.setItem("TOKEN", value);
+        } catch (e) {
+          // saving error
+        }
+      };
+      storeData(token);
 
       const data = {
         expo_token: token,
       };
+
       api.post("/users/expo-token", data);
       // addExpoToken(data);
     });

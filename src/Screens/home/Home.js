@@ -17,6 +17,7 @@ import {
 } from "../../components/styles/Styles";
 import SkeletonContent from "react-native-skeleton-content";
 import ProgressiveImage from "../../components/layout/ProgresssiveImage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 const Home = () => {
   const [token, setToken] = useState(null);
   useEffect(() => {
@@ -74,7 +75,7 @@ const Home = () => {
           </Col6>
           <Col6>
             <SkeletonContent
-              containerStyle={{ elevation: 1 }}
+              containerStyle={{ elevation: 1, border: 1 }}
               isLoading={true}
               layout={[
                 { key: "someId", width: "100%", height: 150, marginBottom: 10 },
